@@ -24,7 +24,7 @@ async function getData() {
 
     // filter only blogs with a cover image & shuffle them
     const filtered = data
-      .filter((item: any) => item?.cover_image)
+      .filter((item) => item?.cover_image) // ✅ removed TypeScript ": any"
       .sort(() => Math.random() - 0.5);
 
     return filtered;

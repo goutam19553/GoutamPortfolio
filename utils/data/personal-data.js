@@ -1,17 +1,17 @@
 export const personalData = {
-  name: "ABU SAID",
+  name: "GOUTAM P",
   profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  designation: "SEO-Centric Full Stack Developer & Campaign Strategist",
+  description: "My name is GOUTAM P. I am a self-taught professional with experience in digital marketing, web development, AI/AR technologies, and content strategy. I have worked with companies, SMEs, government bodies, and political leaders—delivering campaigns, building websites, and ghostwriting books, articles, and impactful speeches. I am passionate about problem-solving, independent learning, and combining technology with communication to create meaningful solutions. Always eager to explore new ideas and take on opportunities that match my skills and interests."
+  email: 'goutampujeri06@gmail.com',
+  phone: '+918050853225',
+  address: 'Belagavi,Karnataka, India 590001 ',
+  github: 'https://github.com/',
+  facebook: 'https://www.facebook.com//',
+  linkedIn: 'https://www.linkedin.com/in/goutam-p-918237282/?originalSubdomain=in',
+  twitter: 'https://twitter.com/',
+  stackOverflow: 'https://stackoverflow.com/',
+  leetcode: "https://leetcode.com/
+  devUsername: "Goutamdev",
+  resume: "https://drive.google.com/file/d/1dhMmjCloppF645jsFhbpLeBdA8ECQoGI/view?usp=sharing"
 }

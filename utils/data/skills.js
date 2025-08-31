@@ -35,13 +35,5 @@ export const skillsData = [
 
   // Writing & Communication
   'Ghostwriting',
-  'Speech Writing',
-  'Creative Writing',
-  'Copywriting',
 
-  // Business & Soft Skills
-  'Project Management',
-  'Problem Solving',
-  'Communication',
-  'Leadership'
 ]

@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: "Founder & CEO",
+    company: "The Ad-Project (India’s first PAN-India AdTech Platform)",
+    duration: "(2025 - Present)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Freelance Digital Marketing Specialist & Web Developer",
+    company: "Collaborated with companies, SMEs, political organizations & government bodies on digital campaigns, SEO, and web solutions",
+    duration: "(2019 - Present)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "Ghostwriter & Content Strategist",
+    company: "Worked with authors, entrepreneurs, and political leaders – writing books, articles, and impactful speeches",
+    duration: "(2018 - 2022)"
   }
 ]

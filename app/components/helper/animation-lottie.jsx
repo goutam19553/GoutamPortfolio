@@ -1,25 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 
-const AnimationLottie = ({ animationPath, width = "95%" }) => {
-  const [isMounted, setIsMounted] = useState(false);
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) return null; // Prevents hydration mismatch
-
+export default function AnimationLottie({ animationData, loop = true }) {
   return (
-    <Lottie
-      animationData={animationPath}
-      loop
-      autoplay
-      style={{ width }}
-    />
+    <div className="w-full h-full flex items-center justify-center">
+      <Lottie animationData={animationData} loop={loop} />
+    </div>
   );
-};
-
-export default AnimationLottie;
+}

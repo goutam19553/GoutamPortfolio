@@ -18,12 +18,12 @@ export const metadata = {
     "This is the portfolio of Goutam P. I’m a self-taught full stack developer and digital marketing specialist with strong expertise in SEO and AI-driven solutions. I love exploring new things, collaborating with others, and taking on fresh challenges as a quick learner.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         {/* Google Tag Manager */}
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM!} />
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       </head>
       <body className={inter.className}>
         <ToastContainer />
